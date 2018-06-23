@@ -1,0 +1,77 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+  }
+#wrapper{
+    /* background-image: url('file:///C:/Users/Carroll%20Boren/Desktop/jsbasics.png');
+    background-repeat: no-repeat; */
+    background-color: rgb(18, 53, 91);
+    width: 970px;
+    padding: 10px;
+    }
+#header{
+ height: 60px;
+ width: 920px;
+ background-color: rgb(215, 38, 56);
+ border-radius: 10px;
+ /* opacity: 0.5; */
+ padding: 0px 15px;
+ }
+#navigation{
+ height: 150px;
+ width: 140px;
+ /* opacity: 0.5; */
+ background-color: rgb(8, 126, 139);
+ border-radius: 10px;
+ display: inline-block;
+ vertical-align: top;
+ margin: 28px 0px 0px 0px;
+ padding: 13px 15px;
+ color: rgb(79, 225, 231);
+ font-size: 11.7px;
+  }
+#main_content{
+    width: 750px;
+    height: 400px;    
+    background-color: rgb(12, 24, 33);
+    /* opacity: 0.5; */
+    margin: 32px 0px 0px 16px;
+    display: inline-block;
+    border-radius: 10px;    
+    }
+#footer{
+ border-radius: 10px;
+ margin: 28px 0px 0px 0px;
+ width: 950px;
+ height: 45px;
+ background-color: rgb(92, 102, 114);
+ /* opacity: 0.5; */
+ display: inline-block;
+ font-size: 13px;
+ color: rgb(80, 163, 229);
+   }
+.spanone{
+    color: rgb(91, 238, 232);
+    text-decoration: underline;
+    font-size: 11px;
+    }
+h2, h1{
+        color: white;
+}
+#main_content h2{
+    color: rgb(80, 163, 229);
+}
+#main_content p{
+    color: rgb(80, 163, 229);
+    font-size: 11px;
+    margin-right: 15px;
+    margin-left: 15px
+}
+#main_content h2{
+    margin-left: 15px;
+}
+.underline{
+    color: rgb(87, 237, 240);
+    text-decoration: underline;
+}
